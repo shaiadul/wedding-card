@@ -1,0 +1,61 @@
+/* parent part style */
+.card-part{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* top part of home */
+.banner-bg{
+    background-image: url("../../images/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin: 10px 135px;
+    border-radius: 60px;
+}
+/* main part of home */
+.main-part{
+    border: 1px solid black;
+    height: 410px;
+    width: 72%;
+    margin: 0px 190px;
+    border-radius: 60px;
+    position: absolute;
+    top: 100px;
+    background-color: white;
+}
+
+.title-btn{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    padding: 6px;
+    border-radius: 15px;
+    margin-top: 8px;
+}
+/* slider part */
+.pic-ctrl{
+    width: 50%;
+    height: 60vh;
+    margin: 10px 150px;
+    border-radius: 20px;
+}
+/* features */
+.features{
+    border: 1px solid black;
+    height: 210px;
+    width: 72%;
+    margin: 330px 190px;
+    border-radius: 60px;
+    background-color: white;
+}
+.box-shadow{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(150, 149, 149, 0.422);
+    margin-bottom: 5px;
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.2);
+}

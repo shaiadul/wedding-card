@@ -4,9 +4,9 @@ import { Container, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <div>
+        <section>
             <Navbar bg="gray" expand="lg" className='mx-auto nav-font'>
-                <Container >
+                <Container className=''>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Brand className='mx-auto' href="#"><img className='mx-auto' src={logo} alt="" /></Navbar.Brand>
                     
@@ -16,6 +16,7 @@ const Header = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
+                            {/* center content */}
                             <Nav.Link href="#action1">Wedding Cards</Nav.Link>
                             <Nav.Link href="#action2">Birthday Cards</Nav.Link>
                             <Nav.Link href="#action3">Feeling Cards</Nav.Link>
@@ -32,7 +33,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
+        </section>
     );
 };
 
